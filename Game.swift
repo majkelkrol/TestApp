@@ -12,8 +12,13 @@ struct Game {
     var b: Int
     var c: Int
     
-    func addNumb(a: Int, b: Int, c: Int) -> Int {
+    func addNumb() -> Int {
         let sum = a + b + c
+        return sum
+    }
+    
+    func devideNumb() -> Int {
+        let sum = a / b
         return sum
     }
 }
